@@ -47,6 +47,7 @@ class SkipList {
   // must remain allocated for the lifetime of the skiplist object.
   explicit SkipList(Comparator cmp, Arena* arena);
 
+
   SkipList(const SkipList&) = delete;
   SkipList& operator=(const SkipList&) = delete;
 
